@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Activity.TeamActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="8dp">
+
+
+    <ImageView
+        android:id="@+id/eka"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/eka"
+        android:foregroundGravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/desEka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="17sp"
+        android:layout_marginBottom="@dimen/default_8dp_margin"
+        android:text="PUTRI EKA ANDRYANTHI - 201643500797"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eka" />
+
+    <ImageView
+        android:id="@+id/opik"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desEka"
+        app:srcCompat="@drawable/opik" />
+
+    <TextView
+        android:id="@+id/desOpik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="17sp"
+        android:layout_marginBottom="@dimen/default_8dp_margin"
+        android:text="TAUFIQ NUR HIDAYAT - 201643500640"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opik" />
+
+    <ImageView
+        android:id="@+id/novi"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desOpik"
+        app:srcCompat="@drawable/novi" />
+
+    <TextView
+        android:id="@+id/desNovi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="17sp"
+        android:layout_marginBottom="@dimen/default_8dp_margin"
+        android:text="NOVIATURAHMAH- 201643500790"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/novi" />
+
+        <ImageView
+            android:id="@+id/galih"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/desNovi"
+            app:srcCompat="@drawable/galih" />
+
+        <TextView
+            android:id="@+id/desGalih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="17sp"
+            android:layout_marginBottom="@dimen/default_8dp_margin"
+            android:text="GALIH PURWANTO- 201643500756"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/galih" />
+
+        <ImageView
+            android:id="@+id/ilham"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/desGalih"
+            app:srcCompat="@drawable/ilham" />
+
+        <TextView
+            android:id="@+id/desIlham"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="17sp"
+            android:layout_marginBottom="@dimen/default_8dp_margin"
+            android:text="MUHAMMAD ILHAM - 201643500711"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ilham" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
